@@ -1,6 +1,26 @@
 var sget = require("sget");
 var Penguins = [];
 
+
+
+var messages = { addGender: "\n What gender is your penguin?:\n",
+                
+               };
+
+
+ var Penguins = function( penguinsGender) {
+    this.penguinsGender = penguinsGender;
+    };
+
+
+
+
+
+
+
+
+
+
 var mainMenu = function() {
   // wipeScreen();
   
